@@ -257,7 +257,7 @@ const IndexContent = () => {
               Кальяны и табак премиум качества
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Широкий ассортимент кальянов, табачной продукции и аксессуаров с доставкой по России
+              Широкий ассортимент кальянов, табачной продукции и аксессуаров
             </p>
             <Button size="lg" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 text-lg px-8">
               <Icon name="Sparkles" size={20} className="mr-2" />
@@ -342,7 +342,7 @@ const IndexContent = () => {
       <section id="about" className="py-16 px-4">
         <div className="container max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">О магазине</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <Card className="text-center border-2 hover:border-primary transition-colors">
               <CardHeader>
                 <div className="mx-auto mb-4 text-5xl">
@@ -351,17 +351,6 @@ const IndexContent = () => {
                 <CardTitle>Премиум качество</CardTitle>
                 <CardDescription>
                   Только сертифицированная продукция от проверенных брендов
-                </CardDescription>
-              </CardHeader>
-            </Card>
-            <Card className="text-center border-2 hover:border-secondary transition-colors">
-              <CardHeader>
-                <div className="mx-auto mb-4 text-5xl">
-                  <Icon name="Truck" size={48} className="mx-auto text-secondary" />
-                </div>
-                <CardTitle>Быстрая доставка</CardTitle>
-                <CardDescription>
-                  Доставка по России в течение 1-3 дней
                 </CardDescription>
               </CardHeader>
             </Card>
